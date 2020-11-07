@@ -39,7 +39,6 @@ h4 {
   line-height: 1.3rem;
 }
 
-/* ------------------NAV--------------------- */
 .header {
   background-color: var(--second-color);
 }
@@ -75,8 +74,6 @@ h4 {
   font-weight: 500;
 }
 
-/* -------------------Banner-------------------- */
-
 .banner {
   background-color: rgb(230, 122, 140);
   color: var(--main-color);
@@ -104,16 +101,12 @@ h4 {
   color: var(--main-color);
 }
 
-/* -----------------Services----------------------- */
 
 .pricing-item__price {
   font-size: 1.2rem;
   line-height: 1.7rem;
   color: var(--second-color);
 }
-
-
-/* -------------------Offer----------------------- */
 
 .offer {
   background-color: #000;
@@ -122,11 +115,104 @@ h4 {
   color: var(--accent-color);
 }
 
-/* -------------------Offer----------------------- */
 
 .about-text {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color);
+}
+
+.team-item__descr {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--second-color);
+  letter-spacing: 1.77px;
+}
+
+
+.awards-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.reviews-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.reviews-descr {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--second-color);
+  letter-spacing: 1.77px;
+}
+
+.reviews-big__descr {
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: rgb(45, 63, 94);
+}
+
+.media-descr {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--second-color);
+  letter-spacing: 1.77px;
+}
+
+.contacts-link {
+  font-size: 0.8rem;
+  color: var(--second-color);
+  letter-spacing: 1.6px;
+}
+
+.social-link {
+  color: var(--main-color);
+}
+
+.callback-text {  
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+  letter-spacing: 1.1px;
+}
+
+.callback-label {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color); 
+}
+
+.contacts-location {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.contacts-link {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--second-color);
+}
+
+.footer-link {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.footer-rights {
+  font-size: 0.7rem;
+  letter-spacing: 1.7px;
+  color: var(--second-color);
 }
