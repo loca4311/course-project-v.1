@@ -17,6 +17,12 @@ img {
   /* font-family: 'Poppins', sans-serif; */
 }
 
+
+
+.top-nav {
+  display: none;
+}
+
 a {
   color: var(--accent-color);
   line-height: 20px;
@@ -26,7 +32,7 @@ a:hover {
   border: 1px solid  rgb(45, 63, 94);
 }
 
-h3 {
+h2 {
   font-size: 2.7rem;
   font-weight: 700;
   color: rgb(45, 63, 94);
@@ -39,7 +45,7 @@ h4 {
   line-height: 1.3rem;
 }
 
-.header {
+.main-header {
   background-color: var(--second-color);
 }
 
