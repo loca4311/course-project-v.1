@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nail Salon</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nail Salon</title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/index.css">
-</head>
+  <body>
+    <header class="main-header" id="home">
+      <div class="container">
+        <nav>
+          <div class="top-nav">
+            <div class="address">
+              <div class="address-location">123 Vovchynetska, IF</div>
+              <a class="address-tel" href="tel:12345678900"
+                >+1 (234) 567 89 00</a
+              >
+            </div>
+            <div class="social">
+              <a href="#" class="social-link">Facebook</a>
+              <a href="#" class="social-link">Instagram</a>
+              <a href="#" class="social-link">Youtube</a>
+            </div>
+          </div>
+          <div class="nav">
+            <div class="logo">Nail S.K.</div>
+            <div class="menu-items">
+              <a href="#services">Services</a>
+              <a href="#pricing">Pricing</a>
+              <a href="#about">About</a>
+              <a href="#team">Team</a>
+              <a href="#portfolio">Portfolio</a>
+              <a href="#testimonials">Testimonials</a>
+              <a href="#contacts">Contacts</a>
+              <div class="address__wprapper">
+                <div class="address">
+                  <div class="address-location">123 Vovchynetska, IF</div>
+                  <a class="address-tel" href="tel:12345678900"
+                    >+1 (234) 567 89 00</a
+                  >
+                </div>
+                <div class="social">
+                  <a href="#" class="social-link">Facebook</a>
+                  <a href="#" class="social-link">Instagram</a>
+                  <a href="#" class="social-link">Youtube</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-<body>
-	<header class="main-header" id="home">
-		<nav>
-			<div class="top-nav">
-				<div class="adress">
-					<div class="adress-location">123 Vovchynetska, IF</div>
-					<a class="adress-tel" href="tel:12345678900">+1 (234) 567 89 00</a>
-				</div>
-				<div class="social">
-					<a href="#" class="social-link">Facebook</a>
-					<a href="#" class="social-link">Instagram</a>
-					<a href="#" class="social-link">Youtube</a>
-				</div>
-			</div>
-			<div class="nav">
-				<div class="logo">Nail S.K.</div>
-				<div class="menu-items">
-					<a href="#services">Services</a>
-					<a href="#pricing">Pricing</a>
-					<a href="#about">About</a>
-					<a href="#team">Team</a>
-					<a href="#portfolio">Portfolio</a>
-					<a href="#testimonials">Testimonials</a>
-					<a href="#contacts">Contacts</a>
-				</div>
-			</div>
-		</nav>
-	</header>
-	<!-- 
 	<main>
+	
 		<section class="banner">
 			<div class="container">
 				<h1 class="banner-header">Enjoy the Best Nails</h1>
@@ -46,23 +63,33 @@
 				<div class="information">
 					<div class="information-item">
 						<h4>Location</h4>
-						<p>1234 Vovchynetska, Ivano-Frankivsk</p>
+						<div class="information-text">
+							<p>1234 Vovchynetska,</p>
+							<p>Ivano-Frankivsk</p>
+						</div>
 					</div>
 					<div class="information-item">
 						<h4>Hours</h4>
-						<p>Tuesday-Wednesday: 9am-6pm</p>
-						<p>Thuesday-Friday: 9am-7pm</p>
-						<p>Saturday: 9am-5pm</p>
+						<div class="information-text">
+							<p>Tuesday-Wednesday: 9am-6pm</p>
+							<p>Thuesday-Friday: 9am-7pm</p>
+							<p>Saturday: 9am-5pm</p>
+					  </div>
 					</div>
 					<div class="information-item">
 						<h4>Contacts</h4>
-						<a href="tel:12345678900">+12345678900</a>
-						<a href="mailto:andyone4311@gmail.com">andyone4311@gmail.com</a>
+						<div class="information-text">
+							<a href="tel:12345678900">+12345678900</a>
+							<a href="mailto:andyone4311@gmail.com">andyone4311@gmail.com</a>
+						</div>
 					</div>
 				</div>
-				<button>Book an Appointment</button>
+				<div class="btn-wrapper">
+					<button class="button-pink">Book an Appointment</button>
+				</div>
 			</div>
 		</section>
+			<!-- 
 		<section id="services">
 			<div class="container">
 				<h2>Featured Nail Services</h2>
@@ -425,6 +452,6 @@
 		</div>
 	</footer>
 	 -->
-</body>
-
+    <link rel="stylesheet" href="js/script.js" />
+  </body>
 </html>
