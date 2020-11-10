@@ -185,6 +185,62 @@ h4 {
 }
 
 
+
+#services {
+  padding-top: 80px;
+  padding-bottom: 80px;  
+}
+
+#services h2 {
+  font-size: 1.8rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.services-list {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.services-item img {
+  margin-top: 50px;
+  display: block;
+  width: 100%;
+  min-height: 262px;
+}
+
+.services-item h4 {
+  margin-top: 20px; 
+}
+
+.btn-transparent {
+  display: block;
+  margin: 50px auto 0;
+
+  padding: 10px 25px;
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: var(--main-color);
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+}
+
+.btn-transparent:hover {
+  color: var(--second-color);
+  border: 2px solid var(--second-color);
+}
+
+.btn-transparent:active {
+  color: var(--accent-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+}
+
+
+
 .pricing-item__price {
   font-size: 1.2rem;
   line-height: 1.7rem;
