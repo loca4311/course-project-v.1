@@ -55,11 +55,20 @@ h2 {
   color: rgb(45, 63, 94);
 }
 
+h3 {
+  color: rgb(45, 63, 94);
+  font-size: 1.9rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  font-weight: 700;
+}
+
 h4 {
   font-size: 1.3rem;
   font-weight: 500;
   color: rgb(45, 63, 94);
   line-height: 1.3rem;
+  text-align: center;
 }
 
 .main-header {
@@ -110,6 +119,7 @@ h4 {
 
 .banner {
   background-image: url(http://res2.weblium.site/res/5c934aabed02d50026508139/5c954bcb12cabd002431857d_optimized_1920);
+  width: 100%;
   background-size: cover;
   background-position: center;
   padding: 90px 0;
@@ -171,7 +181,7 @@ h4 {
   display: block;
   margin: 0 auto;
   padding: 15px 25px;
-  font-size: 24px;
+  font-size: 15x;
   text-align: center;
   cursor: pointer;
   outline: none;
@@ -240,41 +250,208 @@ h4 {
 }
 
 
+#pricing {
+  background: rgba(255, 237, 233, 0.7);
+  padding: 90px 0;
+}
+
+#pricing  h2 {
+  font-size: 1.9rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+#pricing p {
+  font-size: 20px;
+  line-height: 30px;
+  color: var(--main-color);
+  text-align: center;
+  margin: 25px 0 0;
+  padding: 0 20px;
+}
+
+.pricing-tabs {
+  margin-top: 45px;
+}
+
+.pricing-tabs h4 {
+  text-align: center;
+  padding: 15px;
+}
+
+.pricing-item {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.pricing-item .pricing-item__line {
+  width: 100%;
+  border-bottom: 1px solid rgb(131, 126, 126);
+  margin: 0 20px;
+}
+
+.salon {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.salon h2 {
+  font-size: 1.9rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.salon .salon-list .salon-item{
+  margin-top: 50px;
+}
+
+.salon .salon-list .salon-item img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 70%;
+}
+
+.salon .salon-list .salon-item h4 {
+  text-align: center;
+  margin-top: 20px;
+}
 
 .pricing-item__price {
+  display: inline-block;
   font-size: 1.2rem;
   line-height: 1.7rem;
   color: var(--second-color);
 }
 
 .offer {
-  background-color: #000;
-}
-.offer-header {
-  color: var(--accent-color);
+  background-image: url(//res2.weblium.site/res/weblium/5c8a242ed3ca93002462906d_optimized_1920);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
 }
 
+.offer .offer-wrapper {
+  background:rgba(188, 105, 119, 0.56);
+  padding: 90px 0;
+}
+
+.offer .offer-header {
+  color: var(--accent-color);
+  font-size: 1.9rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.offer button {
+  margin-top: 50px;
+}
+
+#about {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#about img {
+  
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 70%;
+}
+
+#about h2 {
+  font-size: 1.9rem;
+  width: 70%;
+  font-family: 'Playfair Display', serif;
+  margin-top: 50px;
+}
 
 .about-text {
+  margin-top: 25px;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color);
 }
 
-.team-item__descr {
+#about .btn-transparent {
+  margin-top: 35px;
+  margin-left: 0;
+}
+
+#team {
+  padding: 50px 0;
+}
+
+.team-item {
+  margin-top: 30px;
+}
+
+.team-item__img {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.team-item__img  img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.team-item h4 {
+  margin-top: 20px;
+}
+
+.team-item .team-item__descr {
+  text-align: center;
+  margin-top: 20px;
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--second-color);
   letter-spacing: 1.77px;
 }
 
+.awards {
+  padding-top: 90px;
+}
 
+.awards-item {
+  margin-top: 50px;
+}
+
+.awards-item  h4 {
+  margin: 0 auto;
+  margin-top: 20px; 
+  max-width: 160px;
+}
+
+.awards-img {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
 .awards-text {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 19px;
+  line-height: 1.65em;
   font-weight: 400;
   color: var(--main-color);
+  margin-top: 25px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.awards-item .awards-img {
+  margin: 0 auto;
 }
 
 .reviews-text {
@@ -362,6 +539,20 @@ h4 {
 
 /* ________________MEIDIA________________ */
 
+@media (min-width: 768px) {
+  .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .information-item:last-child {
+    margin-top: 10px;
+  }
+
+}
+
+
 @media (min-width: 800px) {
   .nav .logo {
     font-size: 30px;
@@ -394,6 +585,9 @@ h4 {
 
 }
 
+
+
+
 @media (min-width: 1080px) {
   
 
@@ -403,6 +597,15 @@ h4 {
 
   .nav .menu-items  {
     min-width: 800px;
+  }
+
+  .information {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .information-item:last-child {
+    margin-top: 50px;
   }
 
 }
