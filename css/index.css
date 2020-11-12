@@ -26,24 +26,11 @@ p {
   display: none;
 }
 
-.menu-items {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
 
 .address__wprapper {
   align-items: center;
   display: flex;
   flex-direction: column;
-}
-
-.menu-items a {
-  display: block;
-  border: 1px solid transparent; 
-  color: var(--accent-color);
-  line-height: 20px;
-  align-self: center;
 }
 
 
