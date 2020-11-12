@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@500&family=Rubik:wght@400;500&display=swap');
 
 
-
+p {
+  margin-bottom: 0;
+}
 
 
 :root {
@@ -139,8 +141,17 @@ h4 {
   margin-top: 35px;
 }
 
+.information {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .information-item {
   display: block;
+  width: 300px;
+  height: 250px;
   background-color: var(--accent-color);
   margin-top: 50px;
   padding: 43px 27px;
@@ -153,6 +164,7 @@ h4 {
 }
 
 .information-item .information-text {
+  display: block;
   padding-top: 30px;
 }
 
@@ -537,16 +549,9 @@ h4 {
 /* ________________MEIDIA________________ */
 
 @media (min-width: 768px) {
-  .information {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
 
-  .information-item:last-child {
-    margin-top: 10px;
-  }
 
+ 
 }
 
 
