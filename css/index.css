@@ -226,7 +226,6 @@ h4 {
   margin-top: 50px;
   display: block;
   width: 100%;
-  min-height: 262px;
 }
 
 .services-item h4 {
@@ -280,6 +279,21 @@ h4 {
   padding: 0 20px;
 }
 
+.nav {
+  justify-content: center;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: var(--main-color);
+  background-color: transparent;
+  border-bottom: 2px solid var(--main-color);
+  outline: none;
+}
+
+.nav-item a {
+  color: var(--main-color);
+}
+
 .pricing-tabs {
   margin-top: 45px;
 }
@@ -292,9 +306,12 @@ h4 {
 .pricing-item {
   display: flex;
   align-items: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   padding: 0 15px;
+}
+
+.pricing-item .pricing-item__name {
+  text-align: left;
 }
 
 .pricing-item .pricing-item__line {
@@ -330,6 +347,10 @@ h4 {
   margin-top: 20px;
 }
 
+.salon-item img {
+  height: 360px;
+}
+
 .pricing-item__price {
   display: inline-block;
   font-size: 1.2rem;
@@ -340,8 +361,11 @@ h4 {
 .offer {
   background-image: url(//res2.weblium.site/res/weblium/5c8a242ed3ca93002462906d_optimized_1920);
   width: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 
 }
 
@@ -366,8 +390,7 @@ h4 {
   padding-bottom: 90px;
 }
 
-#about img {
-  
+.about-items img {
   display: block;
   width: 100%;
   object-fit: cover;
@@ -430,6 +453,44 @@ h4 {
   letter-spacing: 1.77px;
 }
 
+#team {
+  background: #969696;
+}
+
+.team-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.carousel-item {
+  height: 270px;
+}
+
+
+.carousel-item img {
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.carousel-caption p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--second-color);
+  letter-spacing: 1.77px;
+}
+
+
+
+
+
+
+
+
 .awards {
   padding-top: 90px;
 }
@@ -447,7 +508,6 @@ h4 {
 .awards-img {
   width: 100%;
   max-width: 100%;
-  height: 100%;
   margin: 0 auto;
 }
 .awards-text {
@@ -501,12 +561,49 @@ h4 {
   color: var(--main-color);
 }
 
+
+
+
+
+.callback-form {
+  background-image: url(//res2.weblium.site/res/5bc7111959a60a0024e4398e/5bc71b5759a60a0024e46028_optimized_1920);
+  width: 100%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.input {
+  width: 100%;
+}
+
+.callback-form__wrapper {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 90px 0;
+  align-content: center;
+}
+
+.callback {
+  background-color: #fff;
+  max-width: 570px;
+  margin: 0 auto;
+  padding: 45px 85px;
+}
+
+.callback h2 {
+  text-align: center;
+}
+
+
 .callback-text {  
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color);
   letter-spacing: 1.1px;
+  margin-bottom: 30px;
 }
 
 .callback-label {
@@ -514,6 +611,7 @@ h4 {
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color); 
+  width: 100%;
 }
 
 .contacts-location {
@@ -565,7 +663,6 @@ h4 {
 
   .nav {
     display: flex;
-    justify-content: space-between;
     padding: 15px;
   }
   
@@ -590,6 +687,8 @@ h4 {
 
 
 @media (min-width: 992px) {
+  
+
   .top-nav {
     display: flex;
     justify-content: space-between;
@@ -632,3 +731,10 @@ h4 {
 
 }
 
+@media (max-width: 992px) {
+  .main-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+}
