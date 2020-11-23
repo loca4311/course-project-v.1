@@ -66,6 +66,10 @@ h4 {
   color: var(--accent-color);
 }
 
+.clock {
+  color: var(--accent-color);
+}
+
 .address-location {
   font-weight: 400;
   line-height: 28px;
@@ -453,29 +457,33 @@ h4 {
   letter-spacing: 1.77px;
 }
 
-#team {
-  background: #969696;
+.team-conatinar {
+  display: flex;
+  justify-content: space-around;
 }
+
+
 
 .team-header {
   text-align: center;
   margin-bottom: 20px;
 }
 
-.carousel-item {
+.team-item {
   height: 270px;
 }
 
 
-.carousel-item img {
+.team-item img {
   width: 150px;
   height: 140px;
   border-radius: 50%;
   margin: 0 auto;
   display: block;
+  object-fit: cover;
 }
 
-.carousel-caption p {
+.team-caption p {
   text-align: center;
   margin-top: 20px;
   font-size: 0.75rem;
@@ -505,6 +513,11 @@ h4 {
   max-width: 160px;
 }
 
+.awards-img__wrap {
+  max-width: 270px;
+  margin: 0 auto;
+}
+
 .awards-img {
   width: 100%;
   max-width: 100%;
@@ -524,25 +537,72 @@ h4 {
   margin: 0 auto;
 }
 
+/* //res2.weblium.site/res/5c934aabed02d50026508139/5c954ad57eb5280025027283_optimized_1920 */
+
+.reviews {
+  padding: 100px 0;
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
 .reviews-text {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color);
+  text-align: center;
 }
 
 .reviews-descr {
+  margin-top: 10px;
   font-size: 0.75rem;
   font-weight: 500;
   color: var(--second-color);
   letter-spacing: 1.77px;
+  text-align: center;
 }
 
 .reviews-big__descr {
+  margin-top: 15px;
   font-weight: 400;
   line-height: 1.5rem;
   color: rgb(45, 63, 94);
+  text-align: center;
 }
+
+
+
+.reviews-slider {
+  display: flex;
+  margin-top: 50px;
+  padding: 0 20px;
+}
+
+.reviews-slider i {
+  font-size: 40px;
+  color: #808080;
+  margin: auto 0;
+}
+
+.reviews-slider__container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.reviews-slider__photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+
+
 
 .media-descr {
   font-size: 0.75rem;
@@ -628,18 +688,49 @@ h4 {
   color: var(--second-color);
 }
 
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.footer-list__section a {
+  display: block;
+}
+
+.footer-list__section h4 {
+  text-align: right;
+}
+
+.footer-list__section .social {
+  min-width: 100px;
+}
+
+.footer-list__section .social a{
+  color: var(--main-color)
+
+}
+
 .footer-link {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 400;
   color: var(--main-color);
+  margin-bottom: 10px;
 }
 
 .footer-rights {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 40px;
   font-size: 0.7rem;
   letter-spacing: 1.7px;
   color: var(--second-color);
 }
+
 
 
 
