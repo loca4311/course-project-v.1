@@ -1,0 +1,43 @@
+.dom h2 {
+    text-align: center;
+}
+
+.dom-container {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 800px;
+}
+
+.dom-buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    width: 250px;
+    border-right: 1px solid #111;
+}
+
+.dom-btn {
+    width: 100%;
+}
+
+.dom-main {
+    flex: 1;
+}
+
+.dom-main h4 {
+    border-bottom: 1px solid #111;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.person {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
