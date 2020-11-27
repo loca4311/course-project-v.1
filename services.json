@@ -1,0 +1,34 @@
+{
+    "results": [
+        {
+            "id": "1",
+            "title": "Manicure",
+            "price": 55
+        },
+        {
+            "id": "2",
+            "title": "CND Shellac",
+            "price": 20
+        },
+        {
+            "id": "3",
+            "title": "CND Shellac or OPI gel manicure",
+            "price": 25
+        },
+        {
+            "id": "4",
+            "title": "Bridal manicure",
+            "price": 55
+        },
+        {
+            "id": "5",
+            "title": "Full nail art",
+            "price": 55
+        },
+        {
+            "id": "6",
+            "title": "Express manicure",
+            "price": 55
+        }
+    ]
+}
