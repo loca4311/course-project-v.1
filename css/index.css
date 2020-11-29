@@ -611,6 +611,31 @@ h4 {
   letter-spacing: 1.77px;
 }
 
+.contacts {
+  margin-bottom: 30px;
+}
+
+.contacts-wrapper {
+  display: flex;
+}
+
+.contacts-map {
+  width: 800px;
+  
+}
+
+.contacts-info {
+  margin-left: 40px;
+}
+
+.contacts-info h3 {
+  text-align: left;
+}
+
+.contacts-item h4 {
+  text-align: left;
+}
+
 .contacts-link {
   font-size: 0.8rem;
   color: var(--second-color);
@@ -793,6 +818,8 @@ h4 {
     display: none;
   }
 
+ 
+
 }
 
 
@@ -819,12 +846,36 @@ h4 {
   }
 
 }
+ @media (max-width: 1200px) {
+  .contacts-wrapper {
+    display: block;
+  }
+  
+  .contacts-map {
+    width: 100%;
+    display: block;
+  }
+ }
 
 @media (max-width: 992px) {
   .main-header {
     position: fixed;
     width: 100%;
     z-index: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .callback {
+    padding: 30px 20px;
+  }
+
+  .callback h2 {
+    font-size: 20px;
+  } 
+
+  .callback-text {
+    font-size: 14px;
   }
 }
 
