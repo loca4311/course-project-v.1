@@ -390,6 +390,12 @@ h4 {
   margin-top: 50px;
 }
 
+.offer button a{
+  text-decoration: none;
+  color: var(--accent-color)
+}
+
+
 #about {
   padding-top: 90px;
   padding-bottom: 90px;
