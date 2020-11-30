@@ -390,7 +390,12 @@ h4 {
   margin-top: 50px;
 }
 
-.offer button a{
+.offer-link {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.offer-link:hover {
   text-decoration: none;
   color: var(--accent-color);
 }
