@@ -7,6 +7,7 @@ p {
 
 
 :root {
+  scroll-behavior: smooth;
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   --main-color: rgb(45, 63, 94);
